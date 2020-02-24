@@ -13,6 +13,7 @@ import javax.validation.Valid;
 import java.util.UUID;
 
 @RestController
+@RequestMapping("/api")
 public class PlayListController {
 
     @Autowired
